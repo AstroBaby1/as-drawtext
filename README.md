@@ -1,6 +1,6 @@
 # as-drawtext
 
-![as-drawtext](https://imgur.com/bbTERUU)
+![as-drawtext](https://i.imgur.com/bbTERUU.png)
 
 ## Description
 
