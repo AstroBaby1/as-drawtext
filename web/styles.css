@@ -1,4 +1,3 @@
-/* style.css */
 body {
     margin: 0;
     overflow: hidden;
@@ -9,8 +8,8 @@ body {
 #drawText {
     position: fixed;
     top: 45%;
-    left: 55%; /* Adjusted to the right */
-    transform: translate(-50%, -50%) scale(0.2); /* Start scaled down */
+    left: 55%; 
+    transform: translate(-50%, -50%) scale(0.2);
     display: flex;
     align-items: center;
     animation: zoomIn 0.5s forwards;
@@ -31,8 +30,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 38px; /* Adjust as needed */
-    height: 38px; /* Adjust as needed */
+    width: 38px; 
+    height: 38px; 
     border: 2px solid #fff;
     animation: breathe 2s infinite;
     display: flex;
@@ -41,10 +40,10 @@ body {
 }
 
 #keyBox {
-    width: 28px; /* Adjust as needed */
-    height: 28px; /* Adjust as needed */
+    width: 28px; 
+    height: 28px; 
     background-color: #005b95;
-    margin: 5px; /* Adjust as needed */
+    margin: 5px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +60,7 @@ body {
     opacity: 0;
     animation: fadeInRight 0.5s 0.5s forwards;
     position: relative;
-    left: 10px; /* Adjust as needed */
+    left: 10px; 
 
 }
 
@@ -89,7 +88,7 @@ body {
     }
     100% {
         opacity: 0;
-        transform: translateX(-10px); /* Adjust the distance as needed */
+        transform: translateX(-10px);
     }
 }
 
