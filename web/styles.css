@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
-	display: none;
+    display: none;
 }
 
 #drawText {
@@ -33,7 +33,7 @@ body {
     width: 38px; 
     height: 38px; 
     border: 2px solid #fff;
-    animation: breathe 2s infinite;
+    animation: shake 2s infinite, breathe 2s infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,16 +61,24 @@ body {
     animation: fadeInRight 0.5s 0.5s forwards;
     position: relative;
     left: 10px; 
-
 }
-
-
 @keyframes breathe {
     0%, 100% {
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     }
     50% {
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    }
+}
+@keyframes shake {
+    0%, 100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25%, 75% {
+        transform: translate(-50%, -50%) rotate(-2deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(2deg);
     }
 }
 
