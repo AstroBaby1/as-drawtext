@@ -4,7 +4,8 @@
 
 ## Description
 
-as-drawtext is a simple script for displaying text messages with a key bind style
+as-drawtext is a simple script for displaying text messages with a key bind style.
+
 ## Usage
 
 ### Installation
@@ -16,12 +17,13 @@ as-drawtext is a simple script for displaying text messages with a key bind styl
 
 You can use the provided exports in other scripts to show and hide text messages.
 
+```lua
 -- Show 
 exports['as-drawtext']:ShowText("E", "This is a sample text.")
 
 -- Hide 
 exports['as-drawtext']:HideText()
-
+```
 ## Important Note
 Make sure the as-drawtext resource is started in your server.cfg
 
